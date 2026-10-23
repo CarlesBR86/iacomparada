@@ -1,7 +1,9 @@
-// Marca los enlaces de afiliado (/ir/… y Amazon) con rel="sponsored nofollow" y añade la etiqueta de Amazon.
+// Marca los enlaces de afiliado (/ir/… y Amazon) con rel="sponsored nofollow", añade la etiqueta de Amazon
+// y antepone la ruta base a los enlaces internos.
 const AFFILIATE_HOSTS = ['amazon.es', 'amzn.to', 'amzn.eu'];
 
-export default function rehypeAffiliate({ amazonTag } = {}) {
+export default function rehypeAffiliate({ amazonTag, base = '' } = {}) {
+  base = base.replace(/\/$/, '');
   return (tree) => {
     const walk = (node) => {
       if (node.type === 'element' && node.tagName === 'a' && node.properties?.href) {
@@ -17,6 +19,7 @@ export default function rehypeAffiliate({ amazonTag } = {}) {
           node.properties.rel = ['sponsored', 'nofollow', 'noopener'];
           node.properties.target = '_blank';
         }
+        if (href.startsWith('/') && !href.startsWith('//')) node.properties.href = base + href;
       }
       node.children?.forEach(walk);
     };
