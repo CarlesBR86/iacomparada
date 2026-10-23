@@ -22,6 +22,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: withastro/action@v3
+        with:
+          node-version: 24
         env:
           # Variables del repositorio: al conectar el dominio, SITE_URL=https://iacomparada.com y SITE_BASE=/
           SITE_URL: ${{ vars.SITE_URL || 'https://carlesbr86.github.io' }}
