@@ -1,0 +1,14 @@
+---
+import { formatDate } from '../lib/posts';
+const { posts } = Astro.props;
+---
+<ul class="cards">
+  {posts.map((p) => (
+    <li>
+      <span class="tag">{p.data.category}</span><br />
+      <a href={`/blog/${p.id}/`}>{p.data.title}</a>
+      <p>{p.data.description}</p>
+      <p class="meta">{formatDate(p.data.updatedDate ?? p.data.pubDate)}</p>
+    </li>
+  ))}
+</ul>

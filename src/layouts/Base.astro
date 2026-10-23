@@ -1,0 +1,50 @@
+---
+import '../styles/global.css';
+import { SITE } from '../site.config';
+
+interface Props { title?: string; description?: string; type?: 'website' | 'article'; jsonLd?: object }
+const { title, description = SITE.tagline, type = 'website', jsonLd } = Astro.props;
+const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name}: ${SITE.tagline}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang={SITE.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="es_ES" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href="/">{SITE.name}</a>
+        <nav>
+          <a href="/blog/">Guías</a>
+          <a href="/blog/chatgpt-vs-claude-vs-gemini/">ChatGPT vs Claude vs Gemini</a>
+          <a href="/sobre-nosotros/">Sobre nosotros</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap"><slot /></main>
+    <footer class="site">
+      <div class="wrap">
+        <p>
+          <a href="/aviso-legal/">Aviso legal</a>
+          <a href="/privacidad/">Privacidad</a>
+          <a href="/afiliados/">Política de afiliados</a>
+        </p>
+        <p>© {new Date().getFullYear()} {SITE.name}. Algunos enlaces son de afiliado: si contratas a través de ellos podemos recibir una comisión, sin coste extra para ti.{SITE.amazonTag && ' Como Afiliado de Amazon, obtenemos ingresos por las compras adscritas que cumplen los requisitos aplicables.'}</p>
+      </div>
+    </footer>
+  </body>
+</html>

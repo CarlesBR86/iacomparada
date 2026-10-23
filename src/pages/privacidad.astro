@@ -1,0 +1,9 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../site.config';
+---
+<Page title="Política de privacidad" description={`Política de privacidad de ${SITE.name}.`}>
+  <p>Este sitio no utiliza cookies propias ni herramientas de seguimiento, y no recoge datos personales de sus visitantes.</p>
+  <p>Al hacer clic en un enlace de afiliado saldrás de este sitio hacia la tienda correspondiente (por ejemplo, Amazon.es), que puede instalar sus propias cookies para atribuir la compra. Consulta la política de privacidad de cada tienda.</p>
+  <p>Si nos escribes a {SITE.contactEmail}, usaremos tu correo solo para responderte. Puedes ejercer tus derechos de acceso, rectificación y supresión escribiendo a esa misma dirección. Responsable: el titular indicado en el <a href="/aviso-legal/">aviso legal</a>.</p>
+</Page>

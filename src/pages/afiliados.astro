@@ -1,0 +1,9 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../site.config';
+---
+<Page title="Política de afiliados" description="Cómo nos financiamos y cómo funcionan nuestros enlaces de afiliado.">
+  <p>{SITE.name} se financia mediante programas de afiliados de las herramientas que analizamos. Cuando contratas un servicio a través de uno de nuestros enlaces, la empresa puede pagarnos una comisión. El precio para ti es exactamente el mismo.</p>
+  {SITE.amazonTag && <p>{SITE.name} participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un modo de obtener comisiones por publicidad, publicitando e incluyendo enlaces a Amazon.es. Como Afiliado de Amazon, obtenemos ingresos por las compras adscritas que cumplen los requisitos aplicables.</p>}
+  <p>Las comisiones no influyen en nuestras recomendaciones: incluimos herramientas sin programa de afiliados (como ChatGPT, Claude o n8n) cuando son la mejor opción, y señalamos los puntos débiles de cada una. Los enlaces de afiliado están marcados como patrocinados.</p>
+</Page>

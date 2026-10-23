@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import { render } from 'astro:content';
+import { getPosts, formatDate } from '../../lib/posts';
+import { SITE } from '../../site.config';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { title, description, pubDate, updatedDate, category } = post.data;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  datePublished: pubDate.toISOString(),
+  dateModified: (updatedDate ?? pubDate).toISOString(),
+  author: { '@type': 'Organization', name: SITE.author },
+  publisher: { '@type': 'Organization', name: SITE.name },
+  inLanguage: 'es-ES',
+};
+---
+<Base title={title} description={description} type="article" jsonLd={jsonLd}>
+  <article class="prose">
+    <span class="tag">{category}</span>
+    <h1>{title}</h1>
+    <p class="meta">
+      {updatedDate ? `Actualizado el ${formatDate(updatedDate)}` : `Publicado el ${formatDate(pubDate)}`} · {SITE.author}
+    </p>
+    <p class="disclosure">
+      Este artículo contiene enlaces de afiliado: si contratas a través de ellos, podemos recibir una comisión sin coste adicional para ti. <a href="/afiliados/">Más información</a>.
+    </p>
+    <Content />
+  </article>
+</Base>

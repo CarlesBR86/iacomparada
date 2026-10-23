@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { getPosts } from '../../lib/posts';
+const posts = await getPosts();
+---
+<Base title="Todas las guías" description="Todas nuestras comparativas, guías de compra y análisis.">
+  <h1>Todas las guías</h1>
+  <PostList posts={posts} />
+</Base>

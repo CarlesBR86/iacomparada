@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import { getPosts } from '../lib/posts';
+import { SITE } from '../site.config';
+const posts = (await getPosts()).slice(0, 10);
+---
+<Base>
+  <h1>{SITE.tagline}</h1>
+  <p class="meta">Comparativas, precios actualizados y guías prácticas para elegir la herramienta de IA adecuada, pensadas para quien trabaja en español.</p>
+  <h2>Últimas guías</h2>
+  <PostList posts={posts} />
+  <p><a href="/blog/">Ver todas las guías →</a></p>
+</Base>

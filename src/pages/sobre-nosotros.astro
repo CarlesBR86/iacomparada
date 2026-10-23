@@ -1,0 +1,15 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../site.config';
+---
+<Page title="Sobre nosotros" description={`Quiénes somos y cómo trabajamos en ${SITE.name}.`}>
+  <p>{SITE.name} nace para ayudarte a elegir herramientas de inteligencia artificial sin perder horas comparando. Casi todo lo que se publica sobre IA está en inglés y lleno de promesas; aquí lo contamos en español, con precios reales y pensando en quien trabaja en español.</p>
+  <h2>Cómo elaboramos las guías</h2>
+  <ul>
+    <li>Consultamos las páginas oficiales de precios y anotamos la fecha en que lo hicimos.</li>
+    <li>Nos fijamos en lo que importa a un usuario hispanohablante: calidad en español, precio en euros y facturación.</li>
+    <li>Revisamos opiniones de usuarios y problemas habituales (límites, créditos que caducan, renovaciones).</li>
+    <li>Actualizamos las guías cuando cambian los planes o los precios, que en IA pasa a menudo.</li>
+  </ul>
+  <p>¿Ves algún error? Escríbenos a {SITE.contactEmail}.</p>
+</Page>
