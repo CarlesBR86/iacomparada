@@ -20,6 +20,7 @@ Web de afiliados sobre herramientas de IA en español. Sitio estático hecho con
    - HeyGen: 35 % durante 3 meses, cobro por PayPal (mínimo 30 $).
    - Synthesia: 25 % durante 12 meses.
    - Gamma (PartnerStack): revisión en 5 a 10 días laborables.
+   - Happy Scribe (Impact): hasta 30 % recurrente, cookie de 60 días.
    - Murf (20 % durante 24 meses), Fliki (30 % de por vida), Descript (25 $ por cliente), InVideo (50 % del primer pago), Surfer SEO (pago por venta).
 5. **Google Search Console:** dar de alta el dominio y enviar `https://iacomparada.com/sitemap-index.xml`.
 
