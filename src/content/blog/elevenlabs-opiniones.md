@@ -2,12 +2,13 @@
 title: "ElevenLabs: opiniones, precios y cómo usarlo en español (2026)"
 description: "Análisis de ElevenLabs para usuarios hispanohablantes: qué hace, cuánto cuesta cada plan, cómo funcionan los créditos y si merece la pena pagar."
 pubDate: 2026-10-23
+updatedDate: 2026-11-02
 category: "Análisis"
 ---
 
 ElevenLabs se ha convertido en la herramienta de referencia para generar voz con IA. YouTubers, autores de audiolibros, agencias de doblaje y empresas la usan para crear locuciones que, en muchos casos, cuesta distinguir de una voz humana.
 
-En este análisis repasamos qué ofrece a quien trabaja en español, cómo funciona su sistema de créditos y qué plan conviene según el uso. Precios consultados en su web oficial el **23 de octubre de 2026**.
+En este análisis repasamos qué ofrece a quien trabaja en español, cómo funciona su sistema de créditos y qué plan conviene según el uso. Precios consultados en su web oficial el **23 de octubre de 2026**. Precios revisados el 2 de noviembre de 2026.
 
 ## Qué puedes hacer con ElevenLabs
 
@@ -32,8 +33,8 @@ ElevenLabs cobra por **créditos**: cada carácter de texto que conviertes en vo
 | Plan | Precio | Créditos/mes | Aprox. minutos de voz | Lo que añade |
 |---|---|---|---|---|
 | Free | 0 $ | 10.000 | ~10 | Prueba, sin licencia comercial |
-| Starter | 1 $ el primer mes (promoción) | 30.000 | ~30 | Licencia comercial, clonación instantánea, doblaje |
-| Creator | 11 $ | 121.000 | ~120 | Clonación profesional de voz |
+| Starter | 6 $ (1 $ el primer mes) | 30.000 | ~30 | Licencia comercial, clonación instantánea, doblaje |
+| Creator | 22 $ (11 $ el primer mes) | 121.000 | ~120 | Clonación profesional de voz |
 | Pro | 99 $ | 600.000 | ~600 | Audio de alta calidad por API |
 | Scale | 299 $ | 1,8 M | ~1.800 | 3 usuarios, colaboración |
 | Business | 990 $ | 6 M | ~6.000 | 10 usuarios, baja latencia |

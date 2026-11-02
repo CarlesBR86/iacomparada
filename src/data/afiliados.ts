@@ -18,5 +18,6 @@ export const AFILIADOS: Record<string, { nombre: string; url: string; programa?:
   turboscribe: { nombre: 'TurboScribe', url: 'https://turboscribe.ai/' },
   happyscribe: { nombre: 'Happy Scribe', url: 'https://www.happyscribe.com/', programa: 'Impact · hasta 30 % recurrente' },
   notta: { nombre: 'Notta', url: 'https://www.notta.ai/' },
+  pictory: { nombre: 'Pictory', url: 'https://pictory.ai/' },
   surfer: { nombre: 'Surfer SEO', url: 'https://surferseo.com/', programa: 'Pago único por venta' },
 };

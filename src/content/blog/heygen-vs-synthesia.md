@@ -2,19 +2,20 @@
 title: "HeyGen vs Synthesia: qué generador de avatares con IA elegir en 2026"
 description: "Comparativa de HeyGen y Synthesia para crear vídeos con avatares que hablan español: planes, límites, idiomas y precios oficiales a octubre de 2026."
 pubDate: 2026-10-23
+updatedDate: 2026-11-02
 category: "Comparativas"
 ---
 
 Los avatares con IA permiten grabar un vídeo con un presentador sin cámara, sin plató y sin repetir tomas: escribes el guion, eliges un avatar (o creas uno con tu cara) y la herramienta genera el vídeo con voz y movimiento de labios sincronizado. Se usan sobre todo para formación interna, vídeos de producto, onboarding de clientes y contenido para redes.
 
-**HeyGen** y **Synthesia** son las dos plataformas más conocidas. Las dos funcionan en español, pero están pensadas para públicos algo distintos. Esto es lo que ofrecen según sus páginas oficiales a **23 de octubre de 2026**.
+**HeyGen** y **Synthesia** son las dos plataformas más conocidas. Las dos funcionan en español, pero están pensadas para públicos algo distintos. Esto es lo que ofrecen según sus páginas oficiales a **23 de octubre de 2026**. Precios revisados el 2 de noviembre de 2026.
 
 ## Comparativa rápida
 
 | | HeyGen | Synthesia |
 |---|---|---|
 | Plan gratuito | 3 vídeos/mes de hasta 1 min, con marca de agua | 10 min de vídeo/mes, 9 avatares |
-| Plan de entrada | Creator: 29 $/mes (24 $/mes anual) | Starter: 29 $/mes |
+| Plan de entrada | Creator: 29 $/mes (24 $/mes anual) | Starter: 19 $/mes (9 $ el primer mes) |
 | Plan avanzado | Pro: 49 $/mes · Business: 149 $/mes + 20 $/usuario | Pro: 89 $/mes |
 | Idiomas | 175+ (plan Creator) | 140+ |
 | Avatar con tu cara | Sí, incluso en el plan gratuito (1) | Según plan |
@@ -48,7 +49,7 @@ Synthesia lleva más tiempo en el mercado y se ha hecho fuerte en grandes empres
 **Planes:**
 
 - **Basic (gratis):** 10 minutos de vídeo al mes y 9 avatares, con más de 140 idiomas.
-- **Starter (29 $/mes):** más de 125 avatares y hasta unos 12 minutos extra al mes mediante créditos.
+- **Starter (19 $/mes, 9 $ el primer mes):** más de 125 avatares y hasta unos 12 minutos extra al mes mediante créditos.
 - **Pro (89 $/mes):** más de 180 avatares y hasta unos 60 minutos extra al mes.
 - **Enterprise:** minutos ilimitados y más de 240 avatares.
 

@@ -2,12 +2,13 @@
 title: "Cuánto cuestan las herramientas de IA en 2026: guía de precios en español"
 description: "Precios actualizados de ChatGPT, Claude, Gemini, ElevenLabs, HeyGen, Synthesia, Gamma, Make, Descript y más, con qué incluye el plan gratuito de cada una."
 pubDate: 2026-10-23
+updatedDate: 2026-11-02
 category: "Guías"
 ---
 
 Las herramientas de IA cambian de precio y de planes cada pocos meses, y casi todas publican sus tarifas en dólares. Esta guía reúne en un solo sitio lo que cuestan las más útiles, qué incluye su plan gratuito y cuál es el primer plan de pago que merece la pena.
 
-**Última revisión: 23 de octubre de 2026.** La actualizamos cuando detectamos cambios.
+**Última revisión: 2 de noviembre de 2026.** La actualizamos cuando detectamos cambios.
 
 > Los precios en dólares son los de cada web oficial y normalmente no incluyen IVA. Los precios en euros son los que se cobran en España. Comprueba siempre el total en la pantalla de pago.
 
@@ -25,7 +26,7 @@ Más detalle en [ChatGPT vs Claude vs Gemini](/blog/chatgpt-vs-claude-vs-gemini/
 
 | Herramienta | Gratis | Plan recomendado | Precio |
 |---|---|---|---|
-| [ElevenLabs](/ir/elevenlabs/) | 10.000 créditos/mes (~10 min) | Creator | 11 $/mes |
+| [ElevenLabs](/ir/elevenlabs/) | 10.000 créditos/mes (~10 min) | Creator | 22 $/mes (11 $ el primer mes) |
 | [Murf AI](/ir/murf/) | 10 min, sin descargas | Creator | 29 $/mes o 19 $/mes anual |
 
 Más detalle en [los mejores generadores de voz con IA en español](/blog/mejores-generadores-voz-ia-espanol/).
@@ -35,11 +36,12 @@ Más detalle en [los mejores generadores de voz con IA en español](/blog/mejore
 | Herramienta | Gratis | Plan recomendado | Precio |
 |---|---|---|---|
 | [HeyGen](/ir/heygen/) | 3 vídeos/mes de 1 min | Creator | 29 $/mes o 24 $/mes anual |
-| [Synthesia](/ir/synthesia/) | 10 min/mes | Starter | 29 $/mes |
+| [Synthesia](/ir/synthesia/) | 10 min/mes | Starter | 19 $/mes (9 $ el primer mes) |
 | [InVideo](/ir/invideo/) | No | Starter | 20 $/mes o 10 $/mes anual |
 | [Fliki](/ir/fliki/) | 3 créditos/mes, 720p | Standard | Consultar (promociones frecuentes) |
+| [Pictory](/ir/pictory/) | Prueba de 14 días | Starter | 29 $/mes o 25 $/mes anual |
 
-Más detalle en [HeyGen vs Synthesia](/blog/heygen-vs-synthesia/).
+Más detalle en [HeyGen vs Synthesia](/blog/heygen-vs-synthesia/) y en [cómo crear vídeos con IA a partir de texto](/blog/crear-videos-con-ia-a-partir-de-texto/).
 
 ## Edición de audio y vídeo
 
@@ -69,7 +71,7 @@ Más detalle en [Make vs Zapier vs n8n](/blog/make-vs-zapier-vs-n8n/).
 
 | Herramienta | Gratis | Plan recomendado | Precio |
 |---|---|---|---|
-| [Surfer SEO](/ir/surfer/) | No | Essential | 99 $/mes o 79 $/mes anual |
+| [Surfer SEO](/ir/surfer/) | No | Discovery | 49 $/mes (pago anual) |
 
 ## Cómo no gastar de más en IA
 
